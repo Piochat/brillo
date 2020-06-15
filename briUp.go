@@ -14,7 +14,7 @@ func main() {
 func guardar(cantidad string) {
 	c, _ := strconv.Atoi(cantidad)
 	c += 25
-	println(strconv.Itoa(c), "Cadena")
+
 	file, err := os.OpenFile("/sys/class/backlight/intel_backlight/brightness", os.O_WRONLY, 0644)
 	if err != nil {
 		log.Println("Funciona", err.Error())
@@ -32,9 +32,7 @@ func leer() string {
 	} else {
 		sc := bufio.NewScanner(file)
 
-		var contador int
 		for sc.Scan() {
-			contador++
 			reg = sc.Text()
 		}
 	}
