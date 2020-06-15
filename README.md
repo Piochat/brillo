@@ -4,5 +4,5 @@ Estaba experimentando con los ficheros de linux que controlan el brillo de la pa
 
 Pues me parecío divertido compartir el código, no sirve de nada solo aumenta del brillo y pues para hacer la operación inversa basta con cambiar el signo de suma por el de resta.
 
-** No es el código más eficiente pero no busca serlo, solo es como ya dije algo que hice para pasar el rato, pero se le saca provecho con gestores de ventanas (WM) **
+**No es el código más eficiente pero no busca serlo, solo es como ya dije algo que hice para pasar el rato, pero se le saca provecho con gestores de ventanas (WM)**
 
